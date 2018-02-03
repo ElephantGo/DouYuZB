@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		679E5F3B2025BBDE00AC2090 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679E5F3A2025BBDE00AC2090 /* MainViewController.swift */; };
 		67DA897B20258993006DC1DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DA897A20258993006DC1DF /* AppDelegate.swift */; };
 		67DA898020258993006DC1DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67DA897E20258993006DC1DF /* Main.storyboard */; };
 		67DA898220258993006DC1DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67DA898120258993006DC1DF /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		679E5F3A2025BBDE00AC2090 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		67DA897720258992006DC1DF /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67DA897A20258993006DC1DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67DA897F20258993006DC1DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				67DA897E20258993006DC1DF /* Main.storyboard */,
+				679E5F3A2025BBDE00AC2090 /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67DA897B20258993006DC1DF /* AppDelegate.swift in Sources */,
+				679E5F3B2025BBDE00AC2090 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +382,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4CAL8TE6LV;
 				INFOPLIST_FILE = DYZB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tonefuture.DYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -395,7 +399,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4CAL8TE6LV;
 				INFOPLIST_FILE = DYZB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tonefuture.DYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
